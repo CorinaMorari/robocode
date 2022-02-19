@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./galeryStyle.css" />
     <title>Gallery</title>
   </head>
+
   <body>
     <div>
       <div class="navBar">
@@ -21,12 +22,13 @@
           <a href="../about/about.html">About</a>
         </div>
       </div>
+
       <div class="crateCart">
         <h2>create new cart</h2>
         <div class="form">
           <div class="formItem">
             <span>Insert Cart title</span>
-            <input id="cartName" type="text" />
+            <input id="cartTitle" type="text" />
           </div>
 
           <div class="formItem">
@@ -39,9 +41,12 @@
             <textarea id="description" type="text"></textarea>
           </div>
 
-          <button id="formButton">Add</button>
+          <button id="formButton" onclick="buttonHandller()">Add</button>
         </div>
       </div>
+
+      <div id="cartsContainer"></div>
     </div>
+    <script src="./galery.js"></script>
   </body>
 </html>

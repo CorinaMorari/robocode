@@ -25,9 +25,43 @@
   margin: 4px;
 }
 
-#formButton{
-    background-color: rgba(21, 255, 0, 0.733);
-    width: 30%;
-    margin: 4px;
-    cursor: pointer;
+#formButton {
+  background-color: rgba(21, 255, 0, 0.733);
+  width: 30%;
+  margin: 4px;
+  cursor: pointer;
+}
+#cartsContainer {
+  border: 2px solid red;
+  min-height: 20px;
+}
+.newCart {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid rgb(238, 255, 0);
+  margin: 10px;
+  border-radius: 6px;
+}
+.cartImg {
+  border: 2px solid rgb(0, 110, 255);
+  margin: 2px;
+  width: 80px;
+  /* height: 80px; */
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(0, 255, 136, 0.336);
+  margin: 4px;
+  /* height: 100px; */
+}
+.title {
+  color: red;
+  margin: 0px 4px 0px 4px;
+}
+.description {
+  color: red;
+  margin: 0px 4px 0px 4px;
 }
